@@ -20,7 +20,7 @@ ie:
 or just use the jinja global _macro
 
 either 
-'''jinja2
+```jinja2
 {% set form_macros = _macros.forms %}
 {% call form_macros.form_group() %}
   {{ formstuff }}
