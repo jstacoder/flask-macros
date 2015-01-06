@@ -1,0 +1,9 @@
+include README.md
+include Tutorial.md
+include version
+include manage.py
+
+include flask_macros/templates/*
+recursive-include ./flask_macros/templates/ *.html
+include flask_macros/templates/macros/*.html
+recursive-include ./flask_macros/templates/macros/ *.html
