@@ -30,3 +30,10 @@
 {% macro radio_field(field) %}
     {{ _radio(field) }}
 {% endmacro %}
+
+{% macro btn_group(size=false) %}
+    <div class="btn-group{% if size %} btn-group-{{size}}{% endif %}">
+        {{ caller() }}
+    </div>
+{% endmacro %}
+
